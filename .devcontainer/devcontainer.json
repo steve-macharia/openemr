@@ -1,0 +1,13 @@
+{
+  "name": "OpenEMR Codespace",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "OpenEMR Web App",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
